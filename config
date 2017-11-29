@@ -4,6 +4,8 @@ general {
     output_format = "i3bar"
 }
 
+order += "bustracker"
+
 order += "load"
 load {
     format = "%5min"
